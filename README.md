@@ -5,13 +5,13 @@ Although this option is natively available in Firefox's [about:config], Chromium
 ## Motivation 
 Check out the [Chromium Bug](https://bugs.chromium.org/p/chromium/issues/detail?id=1502090) I have reported.
 
-## Customising the Ciphers Preference
+## Customising the Cipher Preference
 
 ### File Descriptions
-|File Name       				     |Functionality                  |
-|------------------------------------|-------------------------------|
-|`tls_aes_128_gcm_sha256.cc	`  		 |Makes **AES_128_GCM_SHA256** the most preferred TLS 1.3. cipher            |
-|`tls_aes_256_gcm_sha384.cc`   		 |Makes **AES_256_GCM_SHA384** the most preferred TLS 1.3. cipher                        |
+|File Name       				             |Functionality                                                        |
+|------------------------------------|---------------------------------------------------------------------|
+|`tls_aes_128_gcm_sha256.cc	`  		   |Makes **AES_128_GCM_SHA256** the most preferred TLS 1.3. cipher      |
+|`tls_aes_256_gcm_sha384.cc`   		   |Makes **AES_256_GCM_SHA384** the most preferred TLS 1.3. cipher      |
 |`tls_chacha20_poly1305_sha256.cc `  |Makes **CHACHA20_POLY1305_SHA256** the most preferred TLS 1.3 cipher.|
 
 ### Steps to Follow
