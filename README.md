@@ -1,9 +1,8 @@
 # Chromium Cipher Suite Customizer
-This repository houses scripts for toggling TLS 1.3 cipher suite preferences in Chromium-based browsers like Chrome, Microsoft Edge, Brave, Opera, and more. 
-Although this option is natively available in Firefox's [about:config], Chromium based browsers do not let users configure the cipher suite preferences.
+This repository houses scripts for toggling TLS 1.3 cipher suite preferences in Chromium. 
 
 ## Motivation 
-Check out the [Chromium Bug](https://bugs.chromium.org/p/chromium/issues/detail?id=1502090) I have reported.
+Check the [Chromium Bug](https://bugs.chromium.org/p/chromium/issues/detail?id=1502090) I have reported.
 
 ## Customising the Cipher Preference
 
@@ -24,4 +23,7 @@ _For example, if you want your browser's most preferred cipher suite to be `TLS_
 ### Disclaimer
 Please note that this script has only been specifically tested with Chromium version `121.0.6128.0`. Additionally, the modification of BoringSSL code suggests compatibility with other programs using BoringSSL, but variations may exist. Use at your own discretion.
 
-Hope you enjoy building Chromium and seizing control of your security settings using these customisable scripts :)
+### For questions or suggestions, contact:
+
+- **Nimesha Wickramasinghe** - [*n.wickramasinghe@unsw.edu.au*](mailto\:n.wickramasinghe@unsw.edu.au)
+- **Arash Shaghaghi** - [*a.shaghaghi@unsw.edu.au*](mailto\:a.shaghaghi@unsw.edu.au)
